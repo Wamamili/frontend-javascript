@@ -1,6 +1,6 @@
 // Teacher.ts
 namespace Subjects {
-    export interface Teacher {
+    setTeacher(teacher: Teacher) {
         firstName: string;
         lastName: string;
     }
