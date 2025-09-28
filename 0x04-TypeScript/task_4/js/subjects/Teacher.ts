@@ -5,7 +5,7 @@ namespace Subjects {
         lastName: string;
     }
 
-    export class Subject {
+    export class Subjects {
         teacher: Teacher;
 
         setTeacher(teacher: Teacher) {
