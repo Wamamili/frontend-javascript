@@ -1,4 +1,3 @@
-// Teacher.ts
 namespace Subjects {
     export interface Teacher {
         firstName: string;
@@ -8,10 +7,12 @@ namespace Subjects {
     export class Subject {
         teacher: Teacher;
 
-        setTeacher(teacher: Teacher){
+        constructor(teacher: Teacher) {
+            this.teacher = teacher;
+        }
+
+        setTeacher(teacher: Teacher): void {
             this.teacher = teacher;
         }
     }
 }
-
-
